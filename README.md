@@ -47,8 +47,18 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
         private System.Windows.Forms.ListBox lst_musteriler;
         private System.Windows.Forms.NotifyIcon bildirimcubugu;
         private System.Windows.Forms.Button button1;</code>
-  </br> Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu () eklemek için kullanılan bir değişken tanımıdır. GroupBox, kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür.
+  </br> Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) eklemek için kullanılan bir değişken tanımlarıdır. Bunlar kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür. 
   </li>
+   <li>Şimdi artık buradaki kutulardan aldığımız verileri bir yere daha sonra kullanmak için depolamalıyız. </br>
+    <code>
+  internal class sanalDatabase
+    {
+        public static List<Musteri> musteriler=new List<Musteri>();
+    }</code>
+  </br> Bu kod bloğu, sanalDatabase adlı bir sınıfı tanımlar ve bu sınıfın içinde, "musteriler" adında bir static List<Musteri> nesnesi tanımlar.
+
+Bu sınıf, bir sanal veritabanı olarak düşünülebilir ve musteriler adlı bu liste, veritabanında yer alan müşteri bilgilerini temsil eder. Liste, program çalışırken tutulan müşteri bilgilerini saklamak için kullanılır ve List<T> sınıfının sağladığı koleksiyon özellikleri ile müşteri bilgileri eklenebilir, çıkarılabilir ve değiştirilebilir.
+</li>
     </ul>
   </li>
   <li>Fourth item</li>
