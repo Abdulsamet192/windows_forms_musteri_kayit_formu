@@ -7,7 +7,7 @@
    - [1. Pencere](#pencere-1)
    - [2. Pencere](#pencere-2)
    - [3. Pencere](#pencere-3)
-3. [Şimdi Adım Adım Kodların Nasıl Olmalı?](#iimdi-adım-adım-kodların-nasıl-olmalı?)
+3. [Şimdi Adım Adım Kodlar Nasıl Olmalı?](#şimdi-adım-adım-kodlar-nasıl-olmalı?)
 ## Uygulamanın Amacı 
 Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız için bir tanıtım kısmı yapmayı uygun gördüm. O yüzden bu readme kısmını tanıtım sayfası olarak düşünebilirsiniz.</br> </br> 
 ## Pencere 1
@@ -19,7 +19,7 @@ Kafanızda benim canlandırdığım örnek daha güzel oluşsun diye tasarım pr
 ## Pencere 3
 Şimdi ise yeni müşteri eklendiğinde ekranda "<em><strong>Yeni Müşteri Eklendi</strong></em>" bildirimini almak istiyorum. Nasıl bir ekran olduğunu anlamanız için yine tasarımı eklicem.
 ![MÜŞTERİ BİLGİLERİ (5)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/075a505d-32a4-43d6-8ff0-319c582c0fef)</br> </br> 
-## Şimdi Adım Adım Kodların Nasıl Olmalı?
+## Şimdi Adım Adım Kodlar Nasıl Olmalı?
 <strong><ol>
   <li>Yazılım Olarak Ne Kullanacağız?</li>
       <ul>
