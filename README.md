@@ -7,7 +7,7 @@
    - [1. Pencere](#pencere-1)
    - [2. Pencere](#pencere-2)
    - [3. Pencere](#pencere-3)
-3. [Şimdi Adım Adım Kodlar Nasıl Olmalı?](#şimdi-adım-adım-kodlar-nasıl-olmalı?)
+3. [Şimdi Adım Adım Kodlar Nasıl Olmalı?](#şimdi-adım-adım-kodlar-nasıl-olmalı-?)
 ## Uygulamanın Amacı 
 Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız için bir tanıtım kısmı yapmayı uygun gördüm. O yüzden bu readme kısmını tanıtım sayfası olarak düşünebilirsiniz.</br> </br> 
 ## Pencere 1
