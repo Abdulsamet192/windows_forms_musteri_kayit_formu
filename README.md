@@ -4,18 +4,18 @@
 
 1. [Uygulamanın Amacı](#uygulamanın-amacı)
 2. [Pencereler](.)
-   - [1. Pencere](#1.-pencere)
-   - [2. Pencere](#2.-pencere)
-   - [3. Pencere](#3.-pencere)
+   - [1. Pencere](#pencere-1)
+   - [2. Pencere](#pencere-2)
+   - [3. Pencere](#pencere-3)
 ## Uygulamanın Amacı 
 Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız için bir tanıtım kısmı yapmayı uygun gördüm. O yüzden bu readme kısmını tanıtım sayfası olarak düşünebilirsiniz.</br> </br> 
-## 1. Pencere
+## Pencere 1
 İlk olarak projemde neler olmasını istediğimi anlamanız için kafamdaki tasarım fikrini anlatmak ile başlıyorum.Açılan pencerede sol tarafta yeni eklenecek müşterinin bilgilerinin girişlerinin alındığı kutucuklar olacak. Kutuların altında bir adet müşteri kaydını ekle butonu, bir adette kullanıcıları önizle kısmı olacak. Sağ tarafta eklenen kullanıcıların isim ve soyadlarının olduğu üstüne tıklandığı zaman kayıtlarının getirildiği kullanıcı kutusu olacak.</br> </br> 
 ![Müşteri Bilgileri (3)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/82bef372-5fc7-439b-a97d-f8957a13c04f) </br> </br> 
-## 2. Pencere
+## Pencere 2
 Kafanızda benim canlandırdığım örnek daha güzel oluşsun diye tasarım programı ile uygulamanın bir önizlemesini yaptım. Şimdiki aşamada ise sağ tarafta kullanıcının bilgilerine daha iyi ulaşılması için ismin üzerine tıklandığında açılacak pencereyi oluşturucam. </br> </br> 
 ![MÜŞTERİ BİLGİLERİ (3)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/d0bed57b-11f6-4399-bd0e-cfeb4aac40f1) </br> </br> 
-## 3. Pencere
+## Pencere 3
 Şimdi ise yeni müşteri eklendiğinde ekranda "<em><strong>Yeni Müşteri Eklendi</strong></em>" bildirimini almak istiyorum. Nasıl bir ekran olduğunu anlamanız için yine tasarımı eklicem.
 ![MÜŞTERİ BİLGİLERİ (5)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/075a505d-32a4-43d6-8ff0-319c582c0fef)</br> </br> 
 ## Şimdi Adım Adım Kodların Nasıl Olmalı
