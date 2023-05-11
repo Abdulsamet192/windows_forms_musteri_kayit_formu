@@ -3,20 +3,10 @@
 ### İçindekiler 📄
 
 1. [Uygulamanın Amacı](#uygulamanın-amacı)
-2. [Nesne Yönelimli Programlama Nedir?](#nesne-yönelimli-programlama-nedir)
-   - [Sınıf Hiyerarşileri](#sınıf-hiyerarşileri)
-   - [Nesne Yönelimli Programlama İlkeleri](#nesne-yönelimli-programlama-i̇lkeleri)
-     - [Abstraction (Soyutlama)](#encapsulation-kapsülleme)
-     - [Encapsulation (Kapsülleme)](#abstraction-soyutlama)
-     - [Inheritance (Kalıtım)](#inheritance-kalıtım)
-     - [Polymorphism (Çok Biçimlilik)](#polymorphism-çok-biçimlilik)
-   - [Nesneler Arası İlişkiler](#nesneler-arası-i̇lişkiler)
-     - [Inheritance (Kalıtım)](#inheritance)
-     - [Implementation](#implementation)
-     - [Association (Bağlantı)](#association-bağlantı)
-     - [Dependency (Bağımlılık)](#dependency-bağımlılık)
-     - [Composition (Bileşim)](#composition-bileşim)
-     - [Aggregation (İçerme)](#aggregation-i̇çerme)
+2. [Pencereler](.)
+   - [1. Pencere](#1.-pencere)
+   - [2. Pencere](#2.-pencere)
+   - [3. Pencere](#3.-pencere)
 ## Uygulamanın Amacı 
 Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız için bir tanıtım kısmı yapmayı uygun gördüm. O yüzden bu readme kısmını tanıtım sayfası olarak düşünebilirsiniz.</br> </br> 
 ## 1. Pencere
