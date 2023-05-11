@@ -1,4 +1,12 @@
 # Windows Forms Kullanarak Müşteri Kayıt Formu Oluşturmak
+1. [Uygulamanın Amacı](## Uygulamanın Amacı )
+2. [Pencereler]()
+   - [1. Pencere](## 1. Pencere)
+   - [2. Pencere](## 2. Pencere)
+   - [3. Pencere](## 3. Pencere)   
+3. [Kod Bilgisi](## Şimdi Adım Adım Kodların Nasıl Olmalı)
+4. [Tasarım Deseni Nedir?](#tasarım-deseni-nedir)
+5. [Tasarım Desenleri](#tasarım-desenleri)
 ## Uygulamanın Amacı 
 Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız için bir tanıtım kısmı yapmayı uygun gördüm. O yüzden bu readme kısmını tanıtım sayfası olarak düşünebilirsiniz.</br> </br> 
 ## 1. Pencere
