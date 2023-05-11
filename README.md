@@ -32,7 +32,8 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
     <ul>
       <li>İlk önce kafamızda neler istediğimizi oturttuk. Şimdi artık iş kod yazma kısmına geldi ve en yorucu kısım burası.</li>
       <li>Görüntü olarak giriş sayfamıza temel elementleri eklemek için </br>
-    <code>private System.Windows.Forms.GroupBox groupBox1;
+    <code>
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_ekle;
         private System.Windows.Forms.TextBox txt_tel;
@@ -46,6 +47,7 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
         private System.Windows.Forms.ListBox lst_musteriler;
         private System.Windows.Forms.NotifyIcon bildirimcubugu;
         private System.Windows.Forms.Button button1;</code>
+  </br> Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu () eklemek için kullanılan bir değişken tanımıdır. GroupBox, kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür.
   </li>
     
     </ul>
