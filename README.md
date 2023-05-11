@@ -49,7 +49,6 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
         private System.Windows.Forms.Button button1;</code>
   </br> Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu () eklemek için kullanılan bir değişken tanımıdır. GroupBox, kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür.
   </li>
-    
     </ul>
   </li>
   <li>Fourth item</li>
