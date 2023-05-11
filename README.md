@@ -59,7 +59,9 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
 
 Bu sınıf, bir sanal veritabanı olarak düşünülebilir ve musteriler adlı bu liste, veritabanında yer alan müşteri bilgilerini temsil eder. Liste, program çalışırken tutulan müşteri bilgilerini saklamak için kullanılır ve List<T> sınıfının sağladığı koleksiyon özellikleri ile müşteri bilgileri eklenebilir, çıkarılabilir ve değiştirilebilir.
 </li>
+   <li>Girilen bilgiler kendileri ile alakalı olan kısımlara değişken atamalarını yaparız. Daha sonra önizleme sayfasında bir veri tabanı mantığı olan listemizden bu verileri çağırıp ekrana yansıtırız.</li>
+  <li>Artık temel olarak tüm mantığı oturttuk kodlarımızı yazmaya geçebiliriz.</li>
     </ul>
   </li>
-  <li>Fourth item</li>
+  
 </ol></strong>
