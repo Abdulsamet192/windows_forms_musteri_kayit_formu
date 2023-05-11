@@ -12,9 +12,9 @@ Kafanızda benim canlandırdığım örnek daha güzel oluşsun diye tasarım pr
 ![MÜŞTERİ BİLGİLERİ (5)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/075a505d-32a4-43d6-8ff0-319c582c0fef)</br> </br> 
 ## Şimdi Adım Adım Kodların Nasıl Olmalı
 <strong><ol>
-  <li>Ne Kullanacağız?</li>
+  <li>Yazılım Olarak Ne Kullanacağız?</li>
       <ul>
-      <li>Ben uygulamamı tasarlarken <em><strong>Windows Form</strong></em> kullanacağım. Bu yüzden <em><strong>Windows Form</strong></em> hakkında genel çerçevede biraz bilgi vermek istiyorum  </li>
+      <li>Ben uygulamamı tasarlarken <em><strong>Windows Form</strong></em> kullanacağım. Bu yüzden <em><strong>Windows Form</strong></em> hakkında genel çerçevede biraz bilgi vermek istiyorum.  </li>
       <li>Windows Form, Microsoft tarafından geliştirilen bir GUI (Grafik Kullanıcı Arayüzü) uygulama çerçevesidir. Windows Form uygulamaları, Windows işletim sistemi üzerinde çalışan masaüstü uygulamaları için kullanılır.
 
 Windows Form uygulamaları, birçok farklı denetim öğesi (control) içerir. Bu denetim öğeleri, kullanıcının uygulama ile etkileşimde bulunmasını sağlar. Örneğin, butonlar, metin kutuları, listeler, menüler ve diğer birçok denetim öğesi Windows Form uygulamalarında kullanılabilir.
@@ -23,11 +23,31 @@ Windows Form uygulamaları, .NET Framework ve C# veya Visual Basic .NET gibi pro
 
 Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirmek için kullanılabilen güçlü bir araçtır.</li>
     </ul>
-  <li>Second item</li>
-  <li>Third item
+  <li>Program Olarak Ne Kullanacağız?
+  <ul>
+      <li>Program olarak ben <em><strong>Microsoft Visual Studio</strong></em> kullandım.</li>
+    </ul>
+  </li>
+  <li>Temel Olarak Kod Mantığı Nasıl Olmalı?
     <ul>
-      <li>Indented item</li>
-      <li>Indented item</li>
+      <li>İlk önce kafamızda neler istediğimizi oturttuk. Şimdi artık iş kod yazma kısmına geldi ve en yorucu kısım burası.</li>
+      <li>Görüntü olarak giriş sayfamıza temel elementleri eklemek için </br>
+    <code>private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btn_ekle;
+        private System.Windows.Forms.TextBox txt_tel;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txt_soyad;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_ad;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox lst_musteriler;
+        private System.Windows.Forms.NotifyIcon bildirimcubugu;
+        private System.Windows.Forms.Button button1;</code>
+  </li>
+    
     </ul>
   </li>
   <li>Fourth item</li>
