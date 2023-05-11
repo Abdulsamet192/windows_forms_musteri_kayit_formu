@@ -14,10 +14,10 @@ Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız
 İlk olarak projemde neler olmasını istediğimi anlamanız için kafamdaki tasarım fikrini anlatmak ile başlıyorum.Açılan pencerede sol tarafta yeni eklenecek müşterinin bilgilerinin girişlerinin alındığı kutucuklar olacak. Kutuların altında bir adet müşteri kaydını ekle butonu, bir adette kullanıcıları önizle kısmı olacak. Sağ tarafta eklenen kullanıcıların isim ve soyadlarının olduğu üstüne tıklandığı zaman kayıtlarının getirildiği kullanıcı kutusu olacak.</br> </br> 
 ![Müşteri Bilgileri (3)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/82bef372-5fc7-439b-a97d-f8957a13c04f) </br> </br> 
 ## Pencere 2
-Kafanızda benim canlandırdığım örnek daha güzel oluşsun diye tasarım programı ile uygulamanın bir önizlemesini yaptım. Şimdiki aşamada ise sağ tarafta kullanıcının bilgilerine daha iyi ulaşılması için ismin üzerine tıklandığında açılacak pencereyi oluşturucam. </br> </br> 
+Kafanızda benim canlandırdığım örnek daha güzel oluşsun diye tasarım programı ile uygulamanın bir önizlemesini yaptım. Şimdiki aşamada ise sağ tarafta kullanıcının bilgilerine daha iyi ulaşılması için ismin üzerine tıklandığında açılacak pencereyi oluşturacağım. </br> </br> 
 ![MÜŞTERİ BİLGİLERİ (3)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/d0bed57b-11f6-4399-bd0e-cfeb4aac40f1) </br> </br> 
 ## Pencere 3
-Şimdi ise yeni müşteri eklendiğinde ekranda "<em><strong>Yeni Müşteri Eklendi</strong></em>" bildirimini almak istiyorum. Nasıl bir ekran olduğunu anlamanız için yine tasarımı eklicem.
+Şimdi ise yeni müşteri eklendiğinde ekranda "<em><strong>Yeni Müşteri Eklendi</strong></em>" bildirimini almak istiyorum. Nasıl bir ekran olduğunu anlamanız için yine tasarımı ekleyeceğim.
 ![MÜŞTERİ BİLGİLERİ (5)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/075a505d-32a4-43d6-8ff0-319c582c0fef)</br> </br> 
 ## Şimdi Adım Adım Kodlar Nasıl Olmalı
 <strong><ol>
