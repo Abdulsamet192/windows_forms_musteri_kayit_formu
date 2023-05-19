@@ -7,7 +7,7 @@
    - [1. Pencere](#pencere-1)
    - [2. Pencere](#pencere-2)
    - [3. Pencere](#pencere-3)
-3. [Şimdi Adım Adım Kodlar Nasıl Olmalı?](#şimdi-adım-adım-kodlar-nasıl-olmalı)
+3. [Şimdi Adım Adım Kodlar](#şimdi-adım-adım-kodlar-nasıl-olmalı)
 ## Uygulamanın Amacı 
 Bu projenin tam olarak neden yapıldığını ve içeriğini daha iyi anlamanız için bir tanıtım kısmı yapmayı uygun gördüm. O yüzden bu readme kısmını tanıtım sayfası olarak düşünebilirsiniz.</br> </br> 
 ## Pencere 1
@@ -19,9 +19,9 @@ Kafanızda benim canlandırdığım örnek daha güzel oluşsun diye tasarım pr
 ## Pencere 3
 Şimdi ise yeni müşteri eklendiğinde ekranda "<em><strong>Yeni Müşteri Eklendi</strong></em>" bildirimini almak istiyorum. Nasıl bir ekran olduğunu anlamanız için yine tasarımı ekleyeceğim.
 ![MÜŞTERİ BİLGİLERİ (5)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/075a505d-32a4-43d6-8ff0-319c582c0fef)</br> </br> 
-## Şimdi Adım Adım Kodlar Nasıl Olmalı
+## Şimdi Adım Adım Kodlar
 <strong><ol>
-  <li>Yazılım Olarak Ne Kullanacağız?</li>
+  <li>Yazılım Dili</li>
       <ul>
       <li>Ben uygulamamı tasarlarken <em><strong>Windows Form</strong></em> kullanacağım. Bu yüzden <em><strong>Windows Form</strong></em> hakkında genel çerçevede biraz bilgi vermek istiyorum.  </li>
       <li>Windows Form, Microsoft tarafından geliştirilen bir GUI (Grafik Kullanıcı Arayüzü) uygulama çerçevesidir. Windows Form uygulamaları, Windows işletim sistemi üzerinde çalışan masaüstü uygulamaları için kullanılır.
@@ -32,12 +32,12 @@ Windows Form uygulamaları, .NET Framework ve C# veya Visual Basic .NET gibi pro
 
 Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirmek için kullanılabilen güçlü bir araçtır.</li>
     </ul>
-  <li>Program Olarak Ne Kullanacağız?
+  <li>Kullandığım Program
   <ul>
       <li>Program olarak ben <em><strong>Microsoft Visual Studio</strong></em> kullandım.</li>
     </ul>
   </li>
-  <li>Temel Olarak Kod Mantığı Nasıl Olmalı?
+  <li>Temel Olarak Kod Mantığı
     <ul>
       <li>İlk önce kafamızda neler istediğimizi oturttuk. Şimdi artık iş kod yazma kısmına geldi ve en yorucu kısım burası.</li>
       <li>Görüntü olarak giriş sayfamıza temel elementleri eklemek için </br>
