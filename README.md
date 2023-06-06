@@ -76,6 +76,21 @@ Bu sınıf, bir sanal veritabanı olarak düşünülebilir ve musteriler adlı b
 </ol></strong> </br>
 
 ## Yapım Aşaması
-Projede olmasını istediğim ihtiyaçlarımı belirledikten sonra yapım aşamasına geçtim artık. Windows Form ve Visual Studio 2022 projeme başladım. İlk önce form.1 sayfası oluşturarak burada girişteki ekranın içinde olan kutuları(box) ekledim. Bana lazım olanlar;  grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) ekledim ve ana ekranda olmasını istediklerim bitti daha sonra ihtiyaca göre bunlar arttırılabilir. Tasarımdan sonra elde ettiğim uygulama görseli aşağıdaki gibidir. </br>
+Projede olmasını istediğim ihtiyaçlarımı belirledikten sonra yapım aşamasına geçtim artık. Windows Form ve Visual Studio 2022 projeme başladım. İlk önce form.1 sayfası oluşturarak burada girişteki ekranın içinde olan kutuları(box) ekledim. Bana lazım olanlar;  grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) ekledim ve ana ekranda olmasını istediklerim bitti daha sonra ihtiyaca göre bunlar arttırılabilir. Tasarımdan sonra elde ettiğim uygulama görseli aşağıdaki gibidir.</br>
+ <code>
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btn_ekle;
+        private System.Windows.Forms.TextBox txt_tel;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txt_soyad;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_ad;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox lst_musteriler;
+        private System.Windows.Forms.NotifyIcon bildirimcubugu;
+        private System.Windows.Forms.Button button1;</code> </br>
 ![1](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/d906b9db-421f-493a-b378-cd60c3b439c3) </br>
-Göründüğü üzere sağ tarafta müşterilerden istenilen verilerin girişinin yapıldığı kısımları elde ettik, sol tarafta ise kayıt yapıldıktan sonra müşterilerin görüntüleneceği bir ekran elde ettim. Sol altta ise yeni kayıt tuşu ile kullanıcı bilgilerini kaydetme, list box'tan seçilen kaydın önizlemesini görmek içinde bir önizleme butonu elde ettim 
+Göründüğü üzere sağ tarafta müşterilerden istenilen verilerin girişinin yapıldığı kısımları elde ettik, sol tarafta ise kayıt yapıldıktan sonra müşterilerin görüntüleneceği bir ekran elde ettim. Sol altta ise yeni müşteri ekle tuşu ile kullanıcı bilgilerini kaydetme, list box'tan seçilen kaydın önizlemesini görmek içinde bir önizleme butonu elde ettim.
