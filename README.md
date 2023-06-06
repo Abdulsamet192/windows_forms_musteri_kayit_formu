@@ -8,6 +8,7 @@
    - [2. Pencere](#pencere-2)
    - [3. Pencere](#pencere-3)
 3. [Şimdi Adım Adım Kodlar](#şimdi-adım-adım-kodlar)
+4. [Yapım Aşaması](#yapım-aşaması)
 ## Uygulamanın Amacı 
 Uygulamamda şirketinizdeki müşterileriniz bilgilerinin tutulduğu ve istenildiği zaman bilgilerin aratılıp bulunduğu bir uygulama geliştirdim. Kısaca içeriğinden bahsedeyim. Uyguluma ilk açıldığında bir yönetim paneli vardır ve bu panelin bir tarafında yeni müşteri eklemek için müşteri bilgilerinin eklendiği form alanları diğer tarafında önceden kayıtlı olan müşterilerin isimlerinin listelendiği bir alan yaptım. Müşteri isimlerinin olduğu kısımdanda isimlerinin üstüne tıklayarak ayrıntılı bir şekilde müşteri bilgilerine ulaşabilirsiniz(telefon numarası, mail, kişisel bilgiler, ihtiyaçlara göre ayrıntılandırılabilir). Yanlış, eksik, farklı format, yeni müşteri eklenecek veya hatalarda uygulamanın sizlere gerekli bildirimleri verdiği uyarı göstergeleri de ekledim. Müşteri eklemek için yeni müşteri ekle butonuna basarak buradan bilgileri doldurup kayıt tuşuna basarak yeni müşterinizi sisteme çok kolay bir şekilde eklemiş oluyorsunuz.   </br> </br> 
 ## Pencere 1
@@ -41,22 +42,7 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
     <ul>
       <li>İlk önce kafamızda neler istediğimizi oturttuk. Şimdi artık iş kod yazma kısmına geldi ve en yorucu kısım burası.</li>
       <li>Görüntü olarak giriş sayfamıza temel elementleri eklemek için </br>
-    <code>
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btn_ekle;
-        private System.Windows.Forms.TextBox txt_tel;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_email;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_soyad;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_ad;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox lst_musteriler;
-        private System.Windows.Forms.NotifyIcon bildirimcubugu;
-        private System.Windows.Forms.Button button1;</code>
-  </br>  Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) eklemek için kullanılan bir değişken tanımlarıdır. Bunlar kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür. 
+Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) eklemek için kullanılan bir değişken tanımlarıdır. Bunlar kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür. 
   </li>
    <li>Şimdi artık buradaki kutulardan aldığımız verileri bir yere daha sonra kullanmak için depolamalıyız. </br>
     <code>
