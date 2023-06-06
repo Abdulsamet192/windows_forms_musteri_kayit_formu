@@ -115,5 +115,25 @@ Müşteri kaydı yapıldıktan sonra ekranın sol tarafındaki list box'ta müş
 ![3](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/6be292c0-dd2e-43ca-8670-eb7b5bd3c317) </br>
 Burada bana lazım olan paneli elde etmek için yeniden ana sayfadaki mantığı kullanarak gerekli olan elemanları yeni bir belgede topladım.</br>
 ![4](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/2a64761b-24c7-44b0-ae32-ba1c5022ca18)</br>
-Daha sonra girilen bilgileri kaydettiğimiz sanal databese'yi kullanarak bilgileri eşleyelek her bilgiyi alakalı kutucuk ile eşleyip verilerin görüşmesini sağladım. Bu sayede girilen her veri kendi alanında yer aldı.
-
+Daha sonra girilen bilgileri kaydettiğimiz sanal databese'yi kullanarak bilgileri eşleyelek her bilgiyi alakalı kutucuk ile eşleyip verilerin görüşmesini sağladım. Bu sayede girilen her veri kendi alanında yer aldı.</br>
+<code>
+   internal class Musteri
+    {
+        public Guid ID { get; set; }        
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
+        public string Email { get; set; }
+        public string Telefon { get; set; }
+        public override string ToString()
+        {
+            return Ad +" "+ Soyad ;      
+        }
+    }
+</code> </br>
+Bu kod bloğu, "Musteri" adında bir sınıf tanımlar. Bu sınıf, müşteri bilgilerini temsil etmek için kullanılır.</br>
+"ID" adında bir "Guid" tipinde bir özellik (property)</br>     
+"Ad" adında bir "string" tipinde bir özellik</br>
+"Soyad" adında bir "string" tipinde bir özellik</br>
+"Email" adında bir "string" tipinde bir özellik</br>
+"Telefon" adında bir "string" tipinde bir özellik </br>
+Ayrıca, bu sınıfın "ToString" metodunda, "Ad" ve "Soyad" özelliklerini birleştirerek bir metin olarak döndürülmesi sağlanmıştır. Bu, "Musteri" nesnesinin metin temsiline yardımcı olur. </br>
