@@ -73,5 +73,5 @@ Bu sınıf, bir sanal veritabanı olarak düşünülebilir ve musteriler adlı b
     </ul>
   </li>
   
-</ol></strong>
+</ol></strong> <br>
 ## Yapım Aşaması
