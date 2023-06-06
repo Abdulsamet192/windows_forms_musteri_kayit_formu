@@ -109,7 +109,10 @@ Bu "sanalDatabase" sınıfı, uygulama içindeki müşteri verilerini saklamak v
 
 
 
-Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mnatıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonunna basıldığı zaman ekrana bir uyarı bldirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için yeni bir belge oluşturup yine ana sayfadaki mantıkla ilk önce bize lazım olan box'ları (kutuları) ekleyeceğiz.  </br> </br>
+Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mantıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonunna basıldığı zaman ekrana bir uyarı bildirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için;
+<code> DialogResult result=MessageBox.Show("Yeni müşteri eklemek istediğinize emin misiniz?","Yeni Müşteri",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if(result == DialogResult.Yes) </code>
+</br> </br>
 ![2](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/abb296b9-38a7-46db-970c-1b9eb385f3aa) </br>
 Elde ettiğim ekran bu evet denildiğinde hayıt yapılır hayırda ana ekrana geri dönülür.
 
