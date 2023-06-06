@@ -56,7 +56,7 @@ Windows Form, hızlı ve kolay bir şekilde masaüstü uygulamaları geliştirme
         private System.Windows.Forms.ListBox lst_musteriler;
         private System.Windows.Forms.NotifyIcon bildirimcubugu;
         private System.Windows.Forms.Button button1;</code>
-  </br> Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) eklemek için kullanılan bir değişken tanımlarıdır. Bunlar kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür. 
+  </br>  Bu kod satırlarında, Windows Form uygulamasında bir grup kutusu (group box), buton(button box), yazı kutusu (text box), etiket (label) ve son olarak eklenen verileri görmek için bir liste kutusu (list box) eklemek için kullanılan bir değişken tanımlarıdır. Bunlar kullanıcı arayüzüne başka denetim öğelerini gruplamak için kullanılan bir Windows Forms kontrolüdür. 
   </li>
    <li>Şimdi artık buradaki kutulardan aldığımız verileri bir yere daha sonra kullanmak için depolamalıyız. </br>
     <code>
@@ -91,6 +91,26 @@ Projede olmasını istediğim ihtiyaçlarımı belirledikten sonra yapım aşama
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lst_musteriler;
         private System.Windows.Forms.NotifyIcon bildirimcubugu;
-        private System.Windows.Forms.Button button1;</code> </br>
+        private System.Windows.Forms.Button button1;</code> </br> </br> 
 ![1](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/d906b9db-421f-493a-b378-cd60c3b439c3) </br>
-Göründüğü üzere sağ tarafta müşterilerden istenilen verilerin girişinin yapıldığı kısımları elde ettik, sol tarafta ise kayıt yapıldıktan sonra müşterilerin görüntüleneceği bir ekran elde ettim. Sol altta ise yeni müşteri ekle tuşu ile kullanıcı bilgilerini kaydetme, list box'tan seçilen kaydın önizlemesini görmek içinde bir önizleme butonu elde ettim.
+Göründüğü üzere sağ tarafta müşterilerden istenilen verilerin girişinin yapıldığı kısımları elde ettik, sol tarafta ise kayıt yapıldıktan sonra müşterilerin görüntüleneceği bir ekran elde ettim. Sol altta ise yeni müşteri ekle tuşu ile kullanıcı bilgilerini kaydetme, list box'tan seçilen kaydın önizlemesini görmek içinde bir önizleme butonu elde ettim. </br> 
+Paneli elde ettikten sonra artık işin backend kısmının mantığında kullandıklarıma geleyim. Burada farklı iki üç aşama var. Öncelikle girilen bilgilerin bir yerde depolandığı ve istediğimiz zaman veriyi çekebileceğimiz bir veri tabanı lazım bunun için yeni bir belge oluşturup burada bir atama yaparak girilen verileri bir listede topladım. </br> </br>
+<code>
+       internal class sanalDatabase
+    {
+        public static List<Musteri> musteriler=new List<Musteri>();
+    }
+</code>  </br> </br>
+Bu kod bloğu"sanalDatabase" adında bir sınıf tanımlar. Bu sınıf, bir sanal veritabanı gibi davranarak "musteriler" adında bir Liste nesnesi içerir.
+Bu "sanalDatabase" sınıfı, uygulama içindeki müşteri verilerini saklamak ve paylaşmak için kullanılabilir. "musteriler" isimli Liste nesnesi, "Musteri" tipindeki nesneleri depolamak için kullanılır.  </br> </br>
+
+
+
+
+
+
+Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mnatıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonunna basıldığı zaman ekrana bir uyarı bldirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için yeni bir belge oluşturup yine ana sayfadaki mantıkla ilk önce bize lazım olan box'ları (kutuları) ekleyeceğiz.  </br> </br>
+![2](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/abb296b9-38a7-46db-970c-1b9eb385f3aa) </br>
+Elde ettiğim ekran bu evet denildiğinde hayıt yapılır hayırda ana ekrana geri dönülür.
+
+
