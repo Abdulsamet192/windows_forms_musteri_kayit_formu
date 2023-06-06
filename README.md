@@ -109,7 +109,7 @@ Bu "sanalDatabase" sınıfı, uygulama içindeki müşteri verilerini saklamak v
 
 
 
-Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mantıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonunna basıldığı zaman ekrana bir uyarı bildirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için;
+Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mantıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonunna basıldığı zaman ekrana bir uyarı bildirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için Message Box kullandım;</br> 
 <code> DialogResult result=MessageBox.Show("Yeni müşteri eklemek istediğinize emin misiniz?","Yeni Müşteri",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
             if(result == DialogResult.Yes) </code>
 </br> </br>
