@@ -100,20 +100,20 @@ Paneli elde ettikten sonra artık işin backend kısmının mantığında kullan
     {
         public static List<Musteri> musteriler=new List<Musteri>();
     }
-</code>  </br> </br>
+</code> </br>
 Bu kod bloğu"sanalDatabase" adında bir sınıf tanımlar. Bu sınıf, bir sanal veritabanı gibi davranarak "musteriler" adında bir Liste nesnesi içerir.
-Bu "sanalDatabase" sınıfı, uygulama içindeki müşteri verilerini saklamak ve paylaşmak için kullanılabilir. "musteriler" isimli Liste nesnesi, "Musteri" tipindeki nesneleri depolamak için kullanılır.  </br> </br>
+Bu "sanalDatabase" sınıfı, uygulama içindeki müşteri verilerini saklamak ve paylaşmak için kullanılabilir. "musteriler" isimli Liste nesnesi, "Musteri" tipindeki nesneleri depolamak için kullanılır.  </br> 
+Ana ekrandaki boc'ların eşleştirmelerini gerekli değişkenlere atadım. Bu sayede alından verileri değişkenleri kullanarak istediğim yerde tekrardan çağırıp kullanabildim.
 
-
-
-
-
-
-Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mantıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonunna basıldığı zaman ekrana bir uyarı bildirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için Message Box kullandım;</br> 
+Şimdi bir uyarı ekranı elde etmek istiyorum bu uyarıyı ise şu mantıkta kullanacağım. Yeni müşteri kaydı yapılırken müşteri ekle butonuna basıldığı zaman ekrana bir uyarı bildirimi gelecek ve "Müşteri eklemek istediğinize emin misiniz?" diye bir bildirim verecek evet veya hayır ile yönlendirme yapacağız. Bunun için Message Box kullandım;</br> 
 <code> DialogResult result=MessageBox.Show("Yeni müşteri eklemek istediğinize emin misiniz?","Yeni Müşteri",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
             if(result == DialogResult.Yes) </code>
 </br> </br>
 ![2](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/abb296b9-38a7-46db-970c-1b9eb385f3aa) </br>
-Elde ettiğim ekran bu evet denildiğinde hayıt yapılır hayırda ana ekrana geri dönülür.
-
+Elde ettiğim ekran bu evet denildiğinde hayıt yapılır hayırda ana ekrana geri dönülür. </br> </br>
+Müşteri kaydı yapıldıktan sonra ekranın sol tarafındaki list box'ta müşteri adı gözükecek buradan müşteri seçip önizlemeye bastığımızda artık müşterinin bilgilerinin geldiği bir ekran karşımıza çıkacak. </br>
+![3](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/6be292c0-dd2e-43ca-8670-eb7b5bd3c317) </br>
+Burada bana lazım olan paneli elde etmek için yeniden ana sayfadaki mantığı kullanarak gerekli olan elemanları yeni bir belgede topladım.</br>
+![4](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/2a64761b-24c7-44b0-ae32-ba1c5022ca18)</br>
+Daha sonra girilen bilgileri kaydettiğimiz sanal databese'yi kullanarak bilgileri eşleyelek her bilgiyi alakalı kutucuk ile eşleyip verilerin görüşmesini sağladım. Bu sayede girilen her veri kendi alanında yer aldı.
 
