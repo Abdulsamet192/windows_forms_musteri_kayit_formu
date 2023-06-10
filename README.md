@@ -3,14 +3,21 @@
 ### İçindekiler 📄
 
 1. [Uygulamanın Amacı](#uygulamanın-amacı)
-2. [Pencereler](.)
+2. [Uygulama Videosu](#uygulama-videosu)
+3. [Pencereler](.)
    - [1. Pencere](#pencere-1)
    - [2. Pencere](#pencere-2)
    - [3. Pencere](#pencere-3)
-3. [Şimdi Adım Adım Kodlar](#şimdi-adım-adım-kodlar)
-4. [Yapım Aşaması](#yapım-aşaması)
+4. [Şimdi Adım Adım Kodlar](#şimdi-adım-adım-kodlar)
+5. [Yapım Aşaması](#yapım-aşaması)
 ## Uygulamanın Amacı 
 Uygulamamda şirketinizdeki müşterileriniz bilgilerinin tutulduğu ve istenildiği zaman bilgilerin aratılıp bulunduğu bir uygulama geliştirdim. Kısaca içeriğinden bahsedeyim. Uyguluma ilk açıldığında bir yönetim paneli vardır ve bu panelin bir tarafında yeni müşteri eklemek için müşteri bilgilerinin eklendiği form alanları diğer tarafında önceden kayıtlı olan müşterilerin isimlerinin listelendiği bir alan yaptım. Müşteri isimlerinin olduğu kısımdanda isimlerinin üstüne tıklayarak ayrıntılı bir şekilde müşteri bilgilerine ulaşabilirsiniz(telefon numarası, mail, kişisel bilgiler, ihtiyaçlara göre ayrıntılandırılabilir). Yanlış, eksik, farklı format, yeni müşteri eklenecek veya hatalarda uygulamanın sizlere gerekli bildirimleri verdiği uyarı göstergeleri de ekledim. Müşteri eklemek için yeni müşteri ekle butonuna basarak buradan bilgileri doldurup kayıt tuşuna basarak yeni müşterinizi sisteme çok kolay bir şekilde eklemiş oluyorsunuz.   </br> </br> 
+## Uygulama Videosu
+
+
+https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/6c7bc611-c080-48c1-9d7f-d88652816cc6
+
+</br> </br> 
 ## Pencere 1
 İlk olarak projemde neler olmasını istediğimi anlamanız için kafamdaki tasarım fikrini anlatmak ile başlıyorum.Açılan pencerede sol tarafta yeni eklenecek müşterinin bilgilerinin girişlerinin alındığı kutucuklar olacak. Kutuların altında bir adet müşteri kaydını ekle butonu, bir adette kullanıcıları önizle kısmı olacak. Sağ tarafta eklenen kullanıcıların isim ve soyadlarının olduğu üstüne tıklandığı zaman kayıtlarının getirildiği kullanıcı kutusu olacak.</br> </br> 
 ![Müşteri Bilgileri (3)](https://github.com/Abdulsamet192/windows_forms_musteri_kayit_formu/assets/97125423/82bef372-5fc7-439b-a97d-f8957a13c04f) </br> </br> 
