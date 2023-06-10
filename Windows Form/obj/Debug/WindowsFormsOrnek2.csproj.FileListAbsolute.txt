@@ -1,0 +1,36 @@
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\bin\Debug\WindowsFormsOrnek2.exe.config
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\bin\Debug\WindowsFormsOrnek2.exe
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\bin\Debug\WindowsFormsOrnek2.pdb
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.csproj.AssemblyReference.cache
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.csproj.SuggestedBindingRedirects.cache
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.Form1.resources
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.Onizleme.resources
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.Properties.Resources.resources
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.csproj.GenerateResource.cache
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.csproj.CoreCompileInputs.cache
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.exe
+C:\Users\abdul\OneDrive\Masaüstü\WindowsFormsUygulamalari-master\WindowsFormsOrnek2\obj\Debug\WindowsFormsOrnek2.pdb
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\bin\Debug\WindowsFormsOrnek2.exe.config
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\bin\Debug\WindowsFormsOrnek2.exe
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\bin\Debug\WindowsFormsOrnek2.pdb
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.csproj.AssemblyReference.cache
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.csproj.SuggestedBindingRedirects.cache
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.Form1.resources
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.Onizleme.resources
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.Properties.Resources.resources
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.csproj.GenerateResource.cache
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.csproj.CoreCompileInputs.cache
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.exe
+C:\Users\abdul\OneDrive\Masaüstü\garanti\resimli elemea\obj\Debug\WindowsFormsOrnek2.pdb
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.csproj.AssemblyReference.cache
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.csproj.SuggestedBindingRedirects.cache
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.Form1.resources
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.Onizleme.resources
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.Properties.Resources.resources
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.csproj.GenerateResource.cache
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.csproj.CoreCompileInputs.cache
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.exe
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\obj\Debug\WindowsFormsOrnek2.pdb
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\bin\Debug\WindowsFormsOrnek2.exe.config
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\bin\Debug\WindowsFormsOrnek2.exe
+C:\Users\abdul\OneDrive\Masaüstü\görsel ödev\bin\Debug\WindowsFormsOrnek2.pdb
